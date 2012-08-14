@@ -23,9 +23,9 @@ and differences.
 Note: This is very much research code -- written for my own curiosity and 
 edification, not for solving real prediction problems.
 
-## Dependencies
+## Third Party Libraries
 
-- [Numeric Javascript][numericjs]
+- [Numeric Javascript][numericjs] by Sébastien Loisel (included in `lib/numericjs`).
 
 [numericjs]: http://www.numericjs.com/
 
