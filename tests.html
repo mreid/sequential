@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>Sequential Prediction</title>
+
+	<link rel="stylesheet" href="js/lib/qunit.css"/>
+	<script data-main="js/setup.js" src="js/lib/require.js"></script>
+</head>
+
+<body>
+	<div id="main" style="margin:0 auto;width:600px;">
+
+		<div id="qunit"></div>
+		<div id="qunit-fixture"></div>
+		<script src="js/lib/qunit.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			QUnit.config.autostart = false;
+			require([
+            	"test/tests",
+          	],
+          	function (testModule) {
+            	QUnit.start();
+          	});
+		</script>
+	</div>
+</body>
+</html>
+
+
